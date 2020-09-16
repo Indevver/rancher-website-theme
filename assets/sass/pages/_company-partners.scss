@@ -1,3 +1,15 @@
+.specific-partners{
+    img{
+        width: 100%;
+        max-height: 185px;
+    }
+    .strategic_title {
+        text-align: center;
+        margin: 40px 0;
+    }
+}
+
+
 .company-partners-screen1 {
     overflow: hidden;
 
@@ -647,6 +659,45 @@
             padding-left: 30px;
         }
     }
+}
+
+.company-strategic-partners {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.partnerTitle {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.row.max-sized.contents-container.excluded {
+    justify-content: space-around;
+}
+
+.partnerImage {
+    object-fit: contain;
+    width: auto;
+    margin: 15px;
+    padding: 20px;
 }
 
 .company-partners-screen4 {
